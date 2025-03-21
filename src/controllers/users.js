@@ -2,7 +2,7 @@ const UsersModel = require('../models/users')
 
 const getAllUsers = async (req, res) => {
     try {
-        const [rows] = await UsersModel.getAllUsers();
+        const [rows] = await UsersModel.getAllUsers()
 
         res.json({
             message: 'GET all users success',

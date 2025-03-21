@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 5000;
 require('dotenv').config()
 
 const usersRoutes = require('./routes/users')
+const departmentRoutes = require('./routes/departments')
 const middlewareLogRequest = require('./middleware/logs');
 const upload = require('./middleware/multer');
 
@@ -14,6 +15,7 @@ app.use(express.json())
 app.use('/assets', express.static('public/img'))
 
 app.use('/users', usersRoutes)
+app.use('/departments', departmentRoutes)
 app.post('/upload', upload.single('photo'), (req, res) => {
     res.json({
         message: 'Upload berhasil'
