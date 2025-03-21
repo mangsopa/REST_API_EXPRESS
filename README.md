@@ -1,3 +1,12 @@
+## What is REST API ? ##
+
+Secara singkat rest api adalah sebuah layanan atau antarmuka yang memungkinkan aplikasi atau sistem berbeda untuk saling berkomunikasi melalui protokol HTTP. REST API dirancang dengan menggunakan prinsip-prinsip REST, yaitu arsitektur berbasis sumber daya yang sering digunakan untuk mengembangkan aplikasi web atau mobile agar lebih ringan, scalable, dan fleksibel.
+
+> [!NOTE] 
+> Documentation [RESTAPI](https://chatgpt.com/share/67dd2758-e500-8006-b592-6a3ab4d52390)
+
+<hr>
+
 ## Screenshot Testing Postman
 
 **GET ALL USERS**
