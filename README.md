@@ -12,6 +12,8 @@
 **DELETE USERS**
 ![image](https://github.com/user-attachments/assets/0f7f19a0-1398-4c70-b6b1-65e1588c71fa)
 
+<hr>
+
 ### Steps
 
 **Clone the repository**
