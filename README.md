@@ -16,7 +16,7 @@
 
 **Clone the repository**
    ```bash
-   git clone https://github.com/mangsopa/rest_api_express.git rest_api_express
+   git clone https://github.com/mangsopa/REST_API_EXPRESS.git rest_api_express
    ```
 
 ## **Install Backend (Express.js)**
